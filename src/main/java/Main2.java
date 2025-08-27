@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Main2 {
     public static void main(String[] args) {
-        // XML to JSON (это вторая задача)
+        // XML to JSON (это вторая задача) 
         String xmlFileName = "data.xml";
         
         List<Employee> xmlList = XmlParser.parseXML(xmlFileName);
